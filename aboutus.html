@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGO - Robotics Company</title>
+    <!-- Added external CSS file link -->
+    <link rel="stylesheet" href="css/aboutus.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link" onclick="showPage('home')">Who We Are</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('products')">Products</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('about')">About Us</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('contact')">Get in Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home/Who We Are Section -->
+    <section id="home" class="page-section active">
+        <div class="container">
+            <div class="about-hero">
+                <h1>Who We Are</h1>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are a team of passionate engineers, crafting intelligent machines that elevate human-robot
+                        collaboration. Working at the frontiers of technology, we harness advancements in AI and
+                        robotics to create systems that seamlessly interact with the physical world. Taking care of the
+                        heavy lifting, so you can focus on what you do best.</p>
+                </div>
+            </div>
+            <div class="about-vision">
+                <h2>Our Vision</h2>
+            </div>
+            <div class="about-text">
+                    To contribute in providing robotic companions in Industries, Society, Homes and in future even Space.
+                    We envision a world evolving into a new era of seamless human-robot collaboration, unlocking greater
+                    possibilities and empowering people to achieve more than ever before.
+                    <br>
+                    <br>
+                    Robotics in a nutshell is triptych of Mechanical, Electronics & Computer Science.
+                    Apart from building robots, we’re building a culture of innovation, synergy, and relentless
+                    curiosity.
+                    Our core values lie in Bold R&D, and crafting meaningful products that serve.
+                    <br>
+                    <br>
+                    If you are interested in working with us and part of our Journey — Let’s connect.
+
+                    </p>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="page-section">
+        <div class="container">
+            <div class="about-hero">
+                <h1>About Us</h1>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are a team of passionate engineers, crafting intelligent machines that elevate human-robot
+                        collaboration. Working at the frontiers of technology, we harness advancements in AI and
+                        robotics to create systems that seamlessly interact with the physical world. Taking care of the
+                        heavy lifting, so you can focus on what you do best.</p>
+                </div>
+            </div>
+
+            <div class="vision-section">
+                <h2>Our Vision</h2>
+                <div class="vision-text">
+                    <p>To contribute in providing robotic companions in Industries, Society, Homes and in future even
+                        Space. We envision a world evolving into a new era of seamless human-robot collaboration,
+                        unlocking greater possibilities and empowering people to achieve more than ever before.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2>Our Values</h2>
+                <div class="vision-text">
+                    <p>Robotics in a nutshell is triptych of Mechanical, Electronics & Computer Science. Apart from
+                        building robots, we're building a culture of innovation, synergy, and relentless curiosity. Our
+                        core values lie in Bold R&D, and crafting meaningful products that serve.</p>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h3>Join Our Journey</h3>
+                <p>If you are interested in working with us and part of our Journey — Let's connect.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="page-section">
+        <div class="container">
+            <div class="about-hero">
+                <h1>Products</h1>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Our innovative robotics solutions are designed to transform industries and enhance human
+                        capabilities. From industrial automation to personal assistance, we create intelligent machines
+                        that adapt to your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section">
+        <div class="container">
+            <div class="contact-hero">
+                <h1>Get in Touch With Us</h1>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>If you'd like to join the team, partner with us, or have any other general inquiries,</p>
+                    <p><strong>Please Connect Us Through:</strong><br>
+                        <a href="mailto:sachinkandpal5@gmail.com" class="email-link">sachinkandpal5@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone No. (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">LOGO</div>
+            <div class="footer-links">
+                <a href="#" onclick="showPage('home')">Home</a>
+                <a href="#" onclick="showPage('products')">Products</a>
+                <a href="#" onclick="showPage('about')">About Us</a>
+                <a href="#" onclick="showPage('contact')">Get in Touch</a>
+            </div>
+            <div>© 2025 LOGO. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <!-- Added external JavaScript file link -->
+    <script src="js/aboutus.js"></script>
+</body>
+
+</html>
