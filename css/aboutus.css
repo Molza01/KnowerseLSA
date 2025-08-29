@@ -22,16 +22,16 @@ body {
 }
 
 .navbar.scrolled {
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
 }
 
 .navbar.scrolled .nav-link {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .navbar.scrolled .logo {
-  color: white;
+  color: rgb(12, 10, 10);
 }
 
 .nav-container {
@@ -44,9 +44,9 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #fdfdfd;
   transition: color 0.3s ease;
 }
 
@@ -58,20 +58,25 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: darkblue;
+  border: 2px solid transparent;
+  font-size: 1.3rem;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .nav-link:hover {
   color: #007bff;
+  border-color: #00f7ff;
+  box-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff;
+
 }
 
 /* Page Sections */
 .page-section {
   min-height: 100vh;
   padding: 6rem 2rem 2rem;
+  background-color: black;
   display: none;
 }
 
@@ -91,9 +96,21 @@ body {
 }
 
 .about-hero h1 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  color: #333;
+  font-size: 2.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #c9963d;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-vision h2 {
+  font-size: 2.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #8e59c3;
   display: flex;
   justify-content: flex-start;
 }
@@ -107,6 +124,7 @@ body {
 
 .about-text {
   font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.8;
   text-align: justify;
 }
