@@ -129,6 +129,10 @@ body {
   text-align: justify;
 }
 
+.about-text p{
+  color: white;
+}
+
 .vision-section {
   background: #f8f9fa;
   padding: 3rem;
